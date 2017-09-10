@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+to create a set of mini data for a specific location. Since then, files in that location or directory will be traced. audit trail of these files will be marked. a version control function is being setup for that specific directory. 
+all git version control function can then be implemented and used
+
+================================
