@@ -4,3 +4,11 @@ to create a set of mini data for a specific location. Since then, files in that 
 all git version control function can then be implemented and used
 
 ================================
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+an intermediate space between working directory and repository. helps u to define what files to trace by commit. 
+it gives u flexibility that you can only put a subset of files under tracking, to keep the git log tidy and clear and focus on the area u want to trace.
+It also tells u the unstaging files, so u can always know what are not traced, and add them to staging area whenever needed.
+
+=====================
