@@ -12,3 +12,30 @@ it gives u flexibility that you can only put a subset of files under tracking, t
 It also tells u the unstaging files, so u can always know what are not traced, and add them to staging area whenever needed.
 
 =====================
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+by comparing the staging area and the previuos commit (using git diff --staged) we can review what has been changed so far. Then we can consider whether the accumulated changes are sufficient for a logical commit version
+
+=====================
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+to create another "workable version" of the product. say with some new features, in another language, usually targetting another group of audience.
+
+it gives layer or structure to the commit repository. like managing the commit by different labels or foloders.
+
+===================
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+to merge the changes made in branch to the master, creaste new master to inherited the features from the branch
+
+all commits in the branch will be merged to the new master
+
+===================
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: save time, less manual error, higher accuracy to detect conflict area
+cons: need to resolve only the conflict, maybe less aware what features are invovled ?
