@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+maybe when working on a public repository with many contributors, a project that you will need the commits from other contributors in order to make it up and running. 
+Then you always want to stay at the latest version/commit of the remote repository. 
